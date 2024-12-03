@@ -99,7 +99,7 @@ Logout the current user and blacklist the token provided in cookie or headers.
 
 Requires a valid JWT token in the Authentication header or cookie:
 
-## `/captain/register` Endpoint
+## `/captains/register` Endpoint
 
 ### Description
 
@@ -138,3 +138,12 @@ The request body should be in JSON format and include the following fields:
   - `capacity` (number): Vehicle passenger capacity (minimum 1).
   - `vehicleType` (string): Type of vehicle (must be 'car', 'motorcycle' or 'auto')
 - `token` (string): JWT Token
+
+## Captain Routes
+
+### POST `/captain/register`
+
+Registers a new captain account with vehicle information.
+
+### Request Body
+
