@@ -25,7 +25,8 @@ QuickCab is a modern ride-booking service designed to make transportation easy a
 - **React JS**: For building a dynamic and responsive user interface.  
 
 ### Backend  
-- **Node.js**: To handle server-side logic and API interactions.  
+- **Node.js**: To handle server-side logic and API interactions.
+- **Express.js**: For building APIs, handling routes, and middleware. 
 
 ### Database  
 - **MongoDB**: A NoSQL database to store user and ride-related data efficiently.  
